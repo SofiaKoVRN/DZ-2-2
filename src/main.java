@@ -6,11 +6,11 @@ public class main {
         int percent = 1;
         int bonus = amount * percent / 100;
         int check = balance + amount + bonus;
-
-        if (amount>999) {
+//test
+        if (amount > 999) {
             System.out.println("Счет клиента = " + check);
         } else {
-            System.out.println("Счет клиента = " + (amount+balance) );
+            System.out.println("Счет клиента = " + (amount + balance));
         }
-        }
+    }
 }
