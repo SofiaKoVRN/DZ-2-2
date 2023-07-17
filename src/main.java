@@ -6,7 +6,7 @@ public class main {
         int percent = 1;
         int bonus = amount * percent / 100;
         int check = balance + amount + bonus;
-//test
+
         if (amount > 999) {
             System.out.println("Счет клиента = " + check);
         } else {
